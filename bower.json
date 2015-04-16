@@ -1,0 +1,29 @@
+{
+  "name": "marc-record-contrast",
+  "version": "0.1.0",
+  "main": "lib/marc-record-contrast.js",
+  "authors": [
+    "Pasi Tuominen <pasi.tuominen@gmail.com>"
+  ],
+  "description": "Module for determining from a pair of marc records which one is better",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "MARC",
+    "deduplication",
+    "merge"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}
