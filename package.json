@@ -1,8 +1,8 @@
 {
-  "name": "marc-record-contrast",
+  "name": "marc-record-rank",
   "version": "0.1.0",
   "description": "Module for determining from 2 marc records which one is better",
-  "main": "lib/marc-record-contrast.js",
+  "main": "lib/marc-record-rank.js",
   "scripts": {
     "test": "grunt default"
   },
@@ -18,7 +18,7 @@
     "mocha": "^2.1.0"
   },
   "dependencies": {
-    "marc-record-js": "git://github.com/petuomin/marc-record-js",
+    "marc-record-js": "^0.1.0",
     "q": "^1.2.0"
   }
 }
