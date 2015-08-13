@@ -1,6 +1,6 @@
 {
   "name": "marc-record-rank",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Module for determining from 2 marc records which one is better",
   "main": "lib/marc-record-rank.js",
   "scripts": {
