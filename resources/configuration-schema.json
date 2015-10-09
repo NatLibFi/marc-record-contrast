@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+	"features": {
+	    "type": "array",
+	    "items": {
+		"type": "object",
+		"properties": {
+		    "extractor": {
+			"oneOf": [
+			    {
+				"type": "string",
+				"minLength": 1
+			    },
+			    {
+				"type": "object",
+				"properties": {
+				    "name": {
+					"type": "string",
+					"minLength": 1
+				    },
+				    "parameters": {
+					"type": "array",
+					"default": []
+				    }
+				},
+				"required": ["name"]
+			    }
+			]
+		    },
+		    "normalizer": {
+			"type": "string",
+			"minLength": 1
+		    }
+		},
+		"required": ["extractor", "normalizer"]
+	    }
+	}
+    },
+    "required": ["features"]
+}
