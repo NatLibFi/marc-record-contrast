@@ -1,5 +1,7 @@
 # MARC record rank
 
+**IN DEVELOPMENT**
+
 Determine which record is higher-ranking in a MARC record pair
 
 TODO
