@@ -22,8 +22,8 @@
 	"type": "git",
 	"url": "git@github.com:NatLibFi/marc-record-rank.git"
     },
-    "license": "AGPL-3.0",
-    "version": "0.0.1",
+    "license": "AGPL-3.0+",
+    "version": "1.0.0",
     "main": "./lib/main",
     "dependencies": {
 	"marc-record-js": "^0.1.1"
