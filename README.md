@@ -1,4 +1,4 @@
-# MARC record rank
+# MARC record rank [![NPM Version](https://img.shields.io/npm/v/@natlibfi/marc-record-rank.svg)](https://npmjs.org/package/marc-record-rank) [![Build Status](https://travis-ci.org/NatLibFi/marc-record-rank.svg)](https://travis-ci.org/NatLibFi/marc-record-rank) [![Test Coverage](https://codeclimate.com/github/NatLibFi/marc-record-rank/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/marc-record-rank/coverage)
 
 Determine which record is higher-ranking in a MARC record pair
 

@@ -1,5 +1,5 @@
 {
-    "name": "marc-record-rank",
+    "name": "@natlibfi/marc-record-rank",
     "description": "Determine which record is higher-ranking in a MARC record pair",
     "author": {
 	"name": "The National Library of Finland"
@@ -23,8 +23,11 @@
 	"url": "git@github.com:NatLibFi/marc-record-rank.git"
     },
     "license": "AGPL-3.0+",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "./lib/main",
+    "scripts": {
+      "publish-to-npm": "npm publish --access=public"
+    },
     "dependencies": {
 	"marc-record-js": "^0.1.1"
     },
